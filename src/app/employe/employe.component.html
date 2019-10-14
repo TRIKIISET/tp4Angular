@@ -1,0 +1,6 @@
+<h2>Employé</h2>
+Nom: {{nom}}
+Prénom: {{prenom}}
+<br>
+Salaire : <input type="number" [value]="salaire" #sal/>
+<button (click)="onConfirmer(sal.value)">Confirmer</button>

@@ -1,0 +1,6 @@
+<h1>Liste des nombres</h1>
+<ul>
+    <ng-container *ngFor="let t of tab; let i =index">
+       <app-nombre [nb]="t" [pos]="i"></app-nombre> 
+      </ng-container>
+</ul>
