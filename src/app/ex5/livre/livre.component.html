@@ -1,0 +1,6 @@
+<h2>{{livre.titre}}</h2>
+Auteur: {{livre.auteur}}
+Prix: <input type="number" [value]="livre.prix"/>
+Note: {{livre.note}}
+<button (click)="onPlus()">-</button> 
+<button (click)="onMoins()">+</button>

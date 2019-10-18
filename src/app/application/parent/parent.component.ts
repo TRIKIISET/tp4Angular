@@ -7,16 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
-  /*ch="50";
-  mess:string;
-
-  onAfficher(event:any)
-  {
-    console.log(event);
-  }
-
- */
 message="message Parent";
+valeur:number; // qui va récupérer le nombre venant de l'enfant
+onAfficher(event:number) 
+{
+  this.valeur = event;
+}
   ngOnInit() {
   }
   constructor() { }

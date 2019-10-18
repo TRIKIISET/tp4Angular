@@ -1,0 +1,18 @@
+<h1>Liste du matériel</h1>
+
+<!--ul>
+    <app-materiel *ngFor = "let m of materiels"
+    [nom]="m.nom"
+    [ref]="m.reference"
+    [image]="m.image"
+    [prix]="m.prix"
+    [repare]="m.repare"
+    >
+        </app-materiel>
+</ul-->
+
+<ul>
+        <app-materiel *ngFor = "let m of materiels"
+        [mat]="m">
+            </app-materiel>
+    </ul>

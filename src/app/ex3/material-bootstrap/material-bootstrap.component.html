@@ -1,0 +1,11 @@
+<li [ngClass]="{'list-group-item':true,
+                'list-group-item-success': materiel.repare=='endommagé'}">
+    <div>
+        <h4>{{materiel.nom}}</h4>
+        <img [src]="materiel.image" alt="materiel" width="50" height="50"/>
+        Référence :{{materiel.reference}}        
+        <input type ="number" [value]="materiel.prix" />
+       Etat: {{materiel.repare}}
+        <button (click)="onReparation()" *ngIf="materiel.repare=='endommagé'" class="btn btn-success">Réparer</button>
+    </div>
+</li>

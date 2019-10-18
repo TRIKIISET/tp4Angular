@@ -1,0 +1,21 @@
+<!--li>
+    <div>
+        <h4>{{nom}}</h4>
+        <img [src]="image" alt="materiel" width="50" height="50"/>
+        Référence :{{ref}}        
+        <input type ="number" [value]="prix" />
+        Etat: {{repare}}
+        <button (click)="onReparer()" *ngIf="repare=='endommagé'">Réparer</button>
+    </div>
+</li-->
+
+<li>
+        <div>
+            <h4>{{materiel.nom}}</h4>
+            <img [src]="materiel.image" alt="materiel" width="50" height="50"/>
+            Référence :{{materiel.reference}}        
+            <input type ="number" [value]="materiel.prix" />
+           Etat: {{materiel.repare}}
+            <button (click)="onReparation()" *ngIf="materiel.repare=='endommagé'">Réparer</button>
+        </div>
+    </li>

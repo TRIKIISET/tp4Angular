@@ -1,0 +1,9 @@
+<div class="container">
+<h1>Liste des dons</h1>
+<ul class="list-group">
+    <li *ngFor="let d of donateurs" class="list-group-item">
+        <app-don [nom]="d" (onChangeMoney)="onTotal($event)"></app-don>
+    </li>
+</ul>
+Le total est {{total}}
+</div>

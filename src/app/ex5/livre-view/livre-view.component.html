@@ -1,0 +1,16 @@
+<h1>Livres</h1>
+<ul>
+    <li>Donnez le titre du livre</li>
+    <li><input type="text" [(ngModel)]="titre" /></li>
+    <li>Donnez le nom de l'auteur</li>
+    <li><input type="text" [(ngModel)]="auteur" /></li>
+    <li>Donnez le prix du livre</li>
+    <li><input type="number" [(ngModel)]="prix" /></li>
+</ul>
+<button (click)="onAjouter()">Ajouter</button>
+<br>
+<ul>
+    <li *ngFor="let l of tabLivres">
+        <app-livre [livre]="l"></app-livre>
+    </li>
+</ul>
