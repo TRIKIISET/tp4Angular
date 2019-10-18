@@ -1,0 +1,9 @@
+[33md80f04a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{0}: reset: moving to ORIG_HEAD
+[33m480d6c0[m HEAD@{1}: reset: moving to HEAD~2
+[33md80f04a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{2}: reset: moving to HEAD
+[33md80f04a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m HEAD@{3}: commit (amend): tp 4 fini avec erreurs
+[33md398524[m HEAD@{4}: commit: tp terminé mais non finalisé et nettoyé
+[33m38f4dc7[m HEAD@{5}: commit: ex1 terminé
+[33m480d6c0[m HEAD@{6}: commit: tp4 pret
+[33m59ce1a0[m HEAD@{7}: commit: Liste des personnes implémentee
+[33m7e27851[m HEAD@{8}: commit (initial): initial commit

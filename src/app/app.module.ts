@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { PersonneComponent } from './personne/personne.component';
-import { ListPersonnesComponent } from './list-personnes/list-personnes.component';
 import { ParentComponent } from './application/parent/parent.component';
 import { EnfantComponent } from './application/enfant/enfant.component';
 import { EmployeComponent } from './employe/employe.component';
@@ -24,8 +22,6 @@ import { LivreViewComponent } from './ex5/livre-view/livre-view.component';
 @NgModule({
   declarations: [
     AppComponent,
-    PersonneComponent,
-    ListPersonnesComponent,
     ParentComponent,
     EnfantComponent,
     EmployeComponent,
